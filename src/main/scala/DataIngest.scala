@@ -2,29 +2,86 @@
   * Created by glcohen on 12/26/15.
   */
 
-import java.io.{BufferedWriter, File, FileWriter}
-import java.text.SimpleDateFormat
 import java.net.URLEncoder._
-import java.util.{ArrayList, Calendar}
-import twitter4j.{Query, QueryResult, Status, Twitter, TwitterException}
+import java.util
+import java.util.{Calendar, ArrayList, Date}
+import twitter4j._
+
+import scala.collection.mutable.ListBuffer
 
 object DataIngest {
   def main(args: Array[String]): Unit = {
-    println("SHIIEET HERE WE GO")
+    println("Starting ingest")
 
-    val (works, twitter) = AuthUtil.setUp()
-    val queryText = encode(("ucsdkoala since:" + IngestUtil.getXMonthsAgo(1)), "UTF-8")
+    val twitter = AuthUtil.applicationAuthSetUp()
+    val queryText = "persnickety"/* since:" + IngestUtil.getXMonthsAgo(12)*/
     val query: Query = new Query(queryText)
-    if (works) {
-      //val tweets = runAndSaveQuery(twitter, query)
-      //toFile(tweets, "twitterOutput.txt")
-      val qList = runQueryPullData(twitter, query, 1)
-      println("List size: " + qList.size)
-      qList.toArray.foreach(println)
-    } else {
-      println("Pull failed")
+    query.setCount(100) // get up to 100 tweets per query (max)
+    val result = runSingleQuery(twitter, query)
+    val freqMapIter = dateMapReduce(result.toList).toIterator
+    var mapCounter = 0
+    while (freqMapIter.hasNext) {
+      val (key, value) = freqMapIter.next
+      println(mapCounter + ": " + key + " " + value)
+      mapCounter += 1
     }
+
   }
+
+  // takes list of dates, returns Map of form [frequency, day of month]
+  def dateMapReduce(dateList: List[Date]): Map[String, Int] = {
+    // map
+    val calList = dateList.map((d: Date) => dateToCalendar(d)) // list of dates -> list of cals
+    //calList.foreach(x => println(x.toString))
+    val freqList: List[(String, Int)] = calList.map((c: Calendar) => (c.get(Calendar.MONTH).toString + "-" + c.get(Calendar.DAY_OF_MONTH).toString) -> 1)
+
+    // reduce
+    var freqMap: Map[String, Int] = Map() // map to hold frequency -> day of Month
+    for ((k, v) <- freqList) {
+      if (freqMap.contains(k)) {
+        val vs = freqMap(k)
+        freqMap += (k -> (v + vs))
+      } else {
+        freqMap += (k -> v)
+      }
+    }
+
+    freqMap
+  }
+
+  // Run query one time return ListBuffer of Dates
+  def runSingleQuery(twitter: Twitter, query: Query): ListBuffer[Date] = {
+    val dateList = ListBuffer[Date]()
+    val result = twitter.search(query)
+    val tweets = result.getTweets
+    val tweetsIter = tweets.listIterator()
+    println("Got " + result.getCount + " tweets.")
+
+    while (tweetsIter.hasNext) {
+      val nextTweet = tweetsIter.next()
+      dateList += nextTweet.getCreatedAt // add date to dateList
+    }
+
+    dateList // return dateList
+  }
+
+  // Get the remaining number of queries allowed in current 15-minute interval
+  def checkRateLimitStatus(twitter: Twitter): Int = {
+    val rateLimitStatus = twitter.getRateLimitStatus("search")
+    rateLimitStatus.get("/search/tweets").getRemaining
+  }
+
+  // Turn a date object to a calendar object since data is mostly deprecated
+  def dateToCalendar(date: Date): Calendar = { // NOTE: Months are stupidly 0-based
+    val cal = Calendar.getInstance()
+    cal.setTime(date)
+    //println("!!!!! " + cal.get(Calendar.DATE))
+    cal
+  }
+
+
+
+  // DONT USE BELOW
 
   def runQueryPullData(twitter: Twitter, query: Query, totalTweets: Int): java.util.ArrayList[java.util.Date] = {
     var lastID: Long = Long.MaxValue
@@ -34,6 +91,7 @@ object DataIngest {
     var nextTweet: Status = null
 
     while (tweetsPulled < totalTweets) {
+      println("HERE")
       var tweetsThisQuery: Int = 0
       if (totalTweets - tweetsPulled > 100) {
         query.setCount(100)
@@ -44,6 +102,7 @@ object DataIngest {
       try {
         do {
           result = twitter.search(query)
+          println("limit status" + twitter.help().getRateLimitStatus())
           val tweets = result.getTweets // get tweets from this pull
           val tweetsIterator = tweets.iterator
           while (tweetsIterator.hasNext) {
@@ -61,6 +120,9 @@ object DataIngest {
               lastID = tweets.get(i).getId()
             }
           }
+          println("Sleeping 10 seconds")
+          Thread sleep (10000) // sleep 10 secs
+          println("Sleep over")
         } while (tweetsPulled < totalTweets && tweetsThisQuery < 100)
 
       } catch {
