@@ -9,9 +9,9 @@ import scala.collection.mutable.ListBuffer
 object DataIngest {
   private final val rateLimit = 450 // # search queries per 15 min interval
 
-  def main(args: Array[String]): Unit = {
-    println("Starting ingest")
-
+  def main(args: Array[String]) {
+    println(IngestUtil.getWOTD)
+    /*println("Starting ingest")
     val twitter = AuthUtil.applicationAuthSetUp()
     val queryText = "persnickety since:" + IngestUtil.getXMonthsAgo(12)
     val query: Query = new Query(queryText)
@@ -23,7 +23,7 @@ object DataIngest {
       val (key, value) = freqMapIter.next
       println(mapCounter + ": " + key + " " + value)
       mapCounter += 1
-    }
+    } */
   }
 
   // takes list of dates, returns Map of form [frequency, day of month]
@@ -31,7 +31,7 @@ object DataIngest {
     // map
     val calList = dateList.map((d: Date) => dateToCalendar(d)) // list of dates -> list of cals
     val freqList: List[(String, Int)] = calList.map((c: Calendar) =>
-        ((c.get(Calendar.MONTH) + 1).toString + "-" + (c.get(Calendar.DAY_OF_MONTH).toString) -> 1)
+        ((c.get(Calendar.MONTH) + 1).toString + "-" + (c.get(Calendar.DAY_OF_MONTH).toString) -> 1))
 
     // reduce
     var freqMap: Map[String, Int] = Map() // map to hold frequency -> day of Month

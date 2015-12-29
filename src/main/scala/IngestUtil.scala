@@ -6,7 +6,23 @@ import java.io.{FileWriter, BufferedWriter, File}
 import java.text.SimpleDateFormat
 import java.util.{Calendar, ArrayList}
 
+import scala.xml.XML
+
 object IngestUtil {
+
+  // return single word
+  def getWOTD(): String = {
+    val wotdStr = getWOTDString
+    wotdStr.substring(0, wotdStr.indexOf(":"))
+  }
+
+  // return word and definition
+  def getWOTDString(): String = {
+    val xml = XML.load("http://dictionary.reference.com/wordoftheday/wotd.rss")
+    val firstTitle = (xml \\ "description").map(_.text).mkString("\n") // '\\' searches whole doc, '\' just searches children
+    val wotd = firstTitle.substring(firstTitle.lastIndexOf("\n") + 1, firstTitle.length - 1) // get last \n, wotd is after
+    wotd
+  }
   def toFile(list: ArrayList[String], fileName: String): Boolean = {
     val file = new File(fileName)
     val bw = new BufferedWriter(new FileWriter(file))

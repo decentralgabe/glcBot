@@ -1,3 +1,5 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.4)
 [debug] :: resolving dependencies :: default#glcbot-s$sources_javadoc_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6,7 +8,7 @@
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c76de27
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@799fb0c4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -15,12 +17,20 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)]
 [info] Resolving org.twitter4j#twitter4j-core;4.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d1ea48c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ae99c22
 [debug] sbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;4.0.4
 [debug] 	found org.twitter4j#twitter4j-core;4.0.4 in sbt-chain
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@215c313b
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [compile]
@@ -32,6 +42,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -40,6 +54,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [test]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [runtime]
@@ -52,6 +70,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -60,6 +82,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->compile]
@@ -68,6 +94,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -83,6 +113,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [provided]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile-internal->default(compile)]
@@ -93,6 +127,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile-internal->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile-internal->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile-internal->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [runtime]
@@ -105,6 +143,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -113,6 +155,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime]
@@ -122,6 +168,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime-internal->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime-internal->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime-internal->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [test]
@@ -135,6 +185,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -143,6 +197,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->compile]
@@ -151,6 +209,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [provided]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test-internal->default(compile)]
@@ -161,6 +223,10 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test-internal->runtime]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test-internal->compile]
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test-internal->master]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#glcbot-s$sources_javadoc_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -218,107 +284,44 @@
 [debug] == resolving dependencies default#glcbot-s$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang/scala-library/2.11.7/srcs/scala-library-sources.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang/scala-library/2.11.7/docs/scala-library-javadoc.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(src) (700ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(doc) (24850ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/org.twitter4j/twitter4j-core/4.0.4/srcs/twitter4j-core-sources.jar
+[debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar(src)
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.twitter4j/twitter4j-core/4.0.4/docs/twitter4j-core-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar(src) (389ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4-javadoc.jar
-[info] 	[SUCCESSFUL ] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar(doc) (693ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/docs/scala-compiler-javadoc.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/srcs/scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(doc) (11234ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src) (2212ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/docs/scala-reflect-javadoc.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/srcs/scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(doc) (4867ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src) (756ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/srcs/scala-xml_2.11-sources.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/docs/scala-xml_2.11-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src) (229ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(doc) (1432ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/srcs/scala-parser-combinators_2.11-sources.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/docs/scala-parser-combinators_2.11-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src) (233ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc) (991ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/jline/jline/2.12.1/srcs/jline-sources.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/jline/jline/2.12.1/docs/jline-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(src) (306ms)
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(doc) (444ms)
-[debug] :: resolution report :: resolve 828ms :: artifacts dl 49433ms
+[debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar(doc)
+[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/srcs/scala-xml_2.11-sources.jar
+[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/jars/scala-xml_2.11.jar
+[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/docs/scala-xml_2.11-javadoc.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src) (101ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar (314ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(doc) (608ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
+[debug] :: resolution report :: resolve 214ms :: artifacts dl 1096ms
 [debug] 	report for default#glcbot-s$sources_javadoc_2.11;1.0 compile produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/default-glcbot-s$sources_javadoc_2.11-compile.xml
 [debug] 	report for default#glcbot-s$sources_javadoc_2.11;1.0 runtime produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/default-glcbot-s$sources_javadoc_2.11-runtime.xml
 [debug] 	report for default#glcbot-s$sources_javadoc_2.11;1.0 test produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/default-glcbot-s$sources_javadoc_2.11-test.xml
@@ -332,4 +335,4 @@
 [debug] 	report for default#glcbot-s$sources_javadoc_2.11;1.0 docs produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/default-glcbot-s$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#glcbot-s$sources_javadoc_2.11;1.0 pom produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/default-glcbot-s$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#glcbot-s$sources_javadoc_2.11;1.0 scala-tool produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/default-glcbot-s$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (828ms resolve - 49433ms download)
+[debug] 	resolve done (214ms resolve - 1096ms download)
