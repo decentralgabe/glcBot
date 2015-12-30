@@ -7,31 +7,12 @@ import twitter4j._
 import scala.collection.mutable.ListBuffer
 
 object DataIngest {
-  private final val rateLimit = 450 // # search queries per 15 min interval
-
-  def main(args: Array[String]) {
-    println(IngestUtil.getWOTD)
-    /*println("Starting ingest")
-    val twitter = AuthUtil.applicationAuthSetUp()
-    val queryText = "persnickety since:" + IngestUtil.getXMonthsAgo(12)
-    val query: Query = new Query(queryText)
-    query.setCount(100) // get up to 100 tweets per query (max)
-    val result = runMultipleQueries(twitter, query, rateLimit - 50)
-    val freqMapIter = dateMapReduce(result.toList).toIterator
-    var mapCounter = 0
-    while (freqMapIter.hasNext) {
-      val (key, value) = freqMapIter.next
-      println(mapCounter + ": " + key + " " + value)
-      mapCounter += 1
-    } */
-  }
-
   // takes list of dates, returns Map of form [frequency, day of month]
   def dateMapReduce(dateList: List[Date]): Map[String, Int] = {
     // map
     val calList = dateList.map((d: Date) => dateToCalendar(d)) // list of dates -> list of cals
     val freqList: List[(String, Int)] = calList.map((c: Calendar) =>
-        ((c.get(Calendar.MONTH) + 1).toString + "-" + (c.get(Calendar.DAY_OF_MONTH).toString) -> 1))
+        (c.get(Calendar.MONTH) + 1).toString + "-" + c.get(Calendar.DAY_OF_MONTH).toString -> 1)
 
     // reduce
     var freqMap: Map[String, Int] = Map() // map to hold frequency -> day of Month
@@ -73,8 +54,8 @@ object DataIngest {
       val tweets = result.getTweets
       val tweetsIter = tweets.listIterator()
 
-      //println("Got " + result.getCount + " tweets.")
-      //println("limit status: " + checkRateLimitStatus(twitter) + "\n")
+      println("Got " + result.getCount + " tweets.")
+      println("limit status: " + checkRateLimitStatus(twitter) + "\n")
 
       while (tweetsIter.hasNext) {
         val nextTweet = tweetsIter.next()
@@ -88,7 +69,7 @@ object DataIngest {
       }
 
       query.setMaxId(lastID - 1) // set max ID to make sure no duplicate tweets pulled
-    } while (result.getCount > 0 && checkRateLimitStatus(twitter) > numQueries)
+    } while (result.getCount > 0 && checkRateLimitStatus(twitter) > 440)
       // run while more tweets to pull and not near limit
 
     dateList // return dateList
