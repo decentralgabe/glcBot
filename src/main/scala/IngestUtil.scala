@@ -2,9 +2,9 @@
   * Created by glcohen on 12/27/15.
   */
 
-import java.io.{FileWriter, BufferedWriter, File}
+import java.io.{FileWriter}
 import java.text.SimpleDateFormat
-import java.util.{Calendar, ArrayList}
+import java.util.{Calendar}
 
 import scala.xml.XML
 
@@ -23,14 +23,20 @@ object IngestUtil {
     val wotd = firstTitle.substring(firstTitle.lastIndexOf("\n") + 1, firstTitle.length - 1) // get last \n, wotd is after
     wotd
   }
-  def toFile(list: ArrayList[String], fileName: String): Boolean = {
-    val file = new File(fileName)
-    val bw = new BufferedWriter(new FileWriter(file))
-    for (i <- 0 until list.size()) {
-      bw.write(list.get(i).toString)
-    }
-    bw.close()
-    true
+
+  // Write daily info to file
+  def toFile(text: String, fileName: String) {
+    val fw = new FileWriter(fileName, true)
+    fw.write("\n\n%s\n%s".format(getDate, text))
+    fw.close()
+    println("Wrote " + text.length + " characters to " + fileName)
+  }
+
+  // Return current timestamp
+  def getDate(): String  = {
+    val format = new SimpleDateFormat("y-M-d")
+    val cal = Calendar.getInstance()
+    format.format(cal.getTime)
   }
 
   // Return date from x year(s) ago for search query of format y-M-d

@@ -1,8 +1,12 @@
-name := "glcBot-s"
+name := "glcBot"
+
+organization := "glcohen"
 
 version := "1.0"
 
 scalaVersion := "2.11.7"
+
+enablePlugins(JavaAppPackaging)
 
 libraryDependencies += "org.twitter4j" % "twitter4j-core" % "4.0.4"
 

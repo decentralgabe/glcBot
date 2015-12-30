@@ -14,7 +14,7 @@ object DataIngest {
     // map
     val calList = dateList.map((d: Date) => dateToCalendar(d)) // list of dates -> list of cals
     val freqList: List[(String, Int)] = calList.map((c: Calendar) =>
-        (c.get(Calendar.MONTH) + 1).toString + "-" + c.get(Calendar.DAY_OF_MONTH).toString -> 1)
+        (c.get(Calendar.MONTH) + 1).toString + "/" + c.get(Calendar.DAY_OF_MONTH).toString -> 1)
 
     // reduce
     var freqMap: Map[String, Int] = Map() // map to hold frequency -> day of Month

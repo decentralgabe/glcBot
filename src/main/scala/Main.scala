@@ -31,7 +31,8 @@ object Main {
       } catch {
         case te: TwitterException => te.printStackTrace()
       }
-      case "normal" => try { // normal setup
+      case "normal" => try {
+        // normal setup
         twitter = AuthUtil.authNormal()
       } catch {
         case te: TwitterException => te.printStackTrace()
@@ -76,7 +77,8 @@ object Main {
     if (avg != 0 && mapCounter != 0) {
       ((avg / mapCounter).toString, maxDay + ": " + maxCount.toString, minDay + ": " +
         minCount.toString, tweetCount.toString, mapCounter.toString)
-    } else { // no queries! probably impossible...
+    } else {
+      // no queries! probably impossible...
       println("ERROR: No tweets found...something's wrong...")
       ("", "", "", "", "")
     }
@@ -84,14 +86,14 @@ object Main {
 
   // Form and post tweet to Twitter
   def postTweet(twitter: Twitter, avg: String, max: String, min: String, tot: String, days: String) {
-    val tweet = IngestUtil.getWOTDString + "\n" + "Avg: " + avg + "\n" + "Max: " + max +
+    val tweet = IngestUtil.getWOTDString + "\n" + "Avg # tweets/day: " + avg + "\n" + "Max: " + max +
       "\n" + "Min: " + min + "\n" + "# Tweets: " + tot + " over " + days + " days"
     println(tweet)
+    IngestUtil.toFile(tweet, "twitterOutPut.txt") // write data to file
 
-   if (tweet.length <= 140) {
+    if (tweet.length <= 140) {
       try {
         twitter.updateStatus(tweet)
-        true
       } catch {
         case te: TwitterException => te.printStackTrace()
       }
