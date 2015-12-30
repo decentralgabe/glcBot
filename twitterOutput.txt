@@ -1,6 +1,0 @@
-2015-12-30
-probity: integrity and uprightness; honesty
-Avg # tweets/day: 129
-Max: 12/30: 411
-Min: 12/26: 19
-# Tweets: 1296 over 10 days

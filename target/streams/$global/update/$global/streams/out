@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53cea484
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7182f011
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -37,6 +37,120 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->default(compile)]
+[info] Resolving com.github.wookietreiber#scala-chart_2.11;latest.integration ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.wookietreiber#scala-chart_2.11;latest.integration {compile=[default(compile)]}
+[debug] default-cache: no cached resolved revision for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[info] Resolving com.github.wookietreiber#scala-chart_2.11;latest.integration ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.github.wookietreiber#scala-chart_2.11;latest.integration {compile=[default(compile)]}
+[debug] default-cache: no cached resolved revision for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] default-cache: no cached resolved revision for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] 		tried /Users/Gabe/.ivy2/local/com.github.wookietreiber/scala-chart_2.11/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] default-cache: no cached resolved revision for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] 		tried https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/[revision]/scala-chart_2.11-[revision].pom
+[debug] 	jcenter: no ivy file found for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] default-cache: no cached resolved revision for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] 		tried https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/[revision]/scala-chart_2.11-[revision].pom
+[debug] 	public: found md file for com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] 		=> https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.pom (0.5.0)
+[debug] downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.pom
+[debug] 	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.pom(pom.original) (154ms)
+[debug] 		tried /Users/Gabe/.ivy2/local/com.github.wookietreiber/scala-chart_2.11/0.5.0/jars/scala-chart_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar
+[debug] 		[0.5.0] com.github.wookietreiber#scala-chart_2.11
+[debug] 	found com.github.wookietreiber#scala-chart_2.11;0.5.0 in public
+[debug] 	[0.5.0] com.github.wookietreiber#scala-chart_2.11;latest.integration
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile(*)]
+[info] Resolving org.jfree#jfreechart;1.0.19 ...
+[debug] sbt-chain: Checking cache for: dependency: org.jfree#jfreechart;1.0.19 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.jfree#jfreechart;1.0.19 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.jfree#jfreechart;1.0.19 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jfreechart/1.0.19/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.jfree#jfreechart;1.0.19
+[debug] 		tried https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom
+[debug] 	jcenter: found md file for org.jfree#jfreechart;1.0.19
+[debug] 		=> https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom (1.0.19)
+[debug] downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom
+[debug] 	[SUCCESSFUL ] org.jfree#jfreechart;1.0.19!jfreechart.pom(pom.original) (339ms)
+[info] Resolving org.sonatype.oss#oss-parent;9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
+[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jfreechart/1.0.19/jars/jfreechart.jar
+[debug] 		tried https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar
+[debug] 	found org.jfree#jfreechart;1.0.19 in jcenter
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->compile(*)]
+[info] Resolving org.jfree#jcommon;1.0.23 ...
+[debug] sbt-chain: Checking cache for: dependency: org.jfree#jcommon;1.0.23 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.jfree#jcommon;1.0.23 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.jfree#jcommon;1.0.23 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jcommon/1.0.23/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.jfree#jcommon;1.0.23
+[debug] 		tried https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom
+[debug] 	jcenter: found md file for org.jfree#jcommon;1.0.23
+[debug] 		=> https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom (1.0.23)
+[debug] downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom
+[debug] 	[SUCCESSFUL ] org.jfree#jcommon;1.0.23!jcommon.pom(pom.original) (269ms)
+[info] Resolving org.sonatype.oss#oss-parent;9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
+[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jcommon/1.0.23/jars/jcommon.jar
+[debug] 		tried https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar
+[debug] 	found org.jfree#jcommon;1.0.23 in jcenter
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->runtime(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile(*)]
+[info] Resolving org.scala-lang.modules#scala-swing_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-swing_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.scala-lang.modules#scala-swing_2.11;1.0.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-swing_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang.modules#scala-swing_2.11;1.0.2
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom
+[debug] 	jcenter: found md file for org.scala-lang.modules#scala-swing_2.11;1.0.2
+[debug] 		=> https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom (1.0.2)
+[debug] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.pom(pom.original) (332ms)
+[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.2/bundles/scala-swing_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
+[debug] 	found org.scala-lang.modules#scala-swing_2.11;1.0.2 in jcenter
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [runtime]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [compile]
@@ -59,6 +173,33 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->compile]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->runtime(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [test]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [runtime]
@@ -82,6 +223,33 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->compile]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->runtime(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -108,6 +276,33 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->compile]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->runtime(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->master]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [optional]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -133,6 +328,33 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->compile]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->runtime(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->master]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [test-internal]
@@ -158,6 +380,33 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->compile(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->master(compile)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.jfree#jfreechart;1.0.19 [runtime->compile]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->runtime(*)]
+[debug] == resolving dependencies org.jfree#jfreechart;1.0.19->org.jfree#jcommon;1.0.23 [runtime->compile]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.wookietreiber#scala-chart_2.11;latest.integration->org.scala-lang.modules#scala-swing_2.11;1.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-swing_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;latest.integration [compile->master]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [optional]
 [debug] == resolving dependencies for glcohen#glcbot_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -253,12 +502,36 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar
+[info] downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar
+[info] 	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.jar (717ms)
+[debug] 		tried https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar
+[info] downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar
+[info] 	[SUCCESSFUL ] org.jfree#jfreechart;1.0.19!jfreechart.jar (2284ms)
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(bundle) (1530ms)
+[debug] 		tried https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar
+[info] downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar
+[info] 	[SUCCESSFUL ] org.jfree#jcommon;1.0.23!jcommon.jar (1259ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 475ms :: artifacts dl 30ms
+[debug] :: resolution report :: resolve 4242ms :: artifacts dl 5838ms
 [debug] 	report for glcohen#glcbot_2.11;1.0 compile produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot_2.11-compile.xml
 [debug] 	report for glcohen#glcbot_2.11;1.0 runtime produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot_2.11-runtime.xml
 [debug] 	report for glcohen#glcbot_2.11;1.0 test produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot_2.11-test.xml
@@ -272,5 +545,5 @@
 [debug] 	report for glcohen#glcbot_2.11;1.0 docs produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot_2.11-docs.xml
 [debug] 	report for glcohen#glcbot_2.11;1.0 pom produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot_2.11-pom.xml
 [debug] 	report for glcohen#glcbot_2.11;1.0 scala-tool produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot_2.11-scala-tool.xml
-[debug] 	resolve done (475ms resolve - 30ms download)
+[debug] 	resolve done (4242ms resolve - 5838ms download)
 [info] Done updating.

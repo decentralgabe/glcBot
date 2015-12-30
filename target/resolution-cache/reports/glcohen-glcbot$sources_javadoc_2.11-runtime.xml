@@ -7,8 +7,80 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20151230115407"/>
+		date="20151230122340"/>
 	<dependencies>
+		<module organisation="com.github.wookietreiber" name="scala-chart_2.11">
+			<revision name="0.5.0" status="release" pubdate="20150831045402" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/wookietreiber/scala-chart" extra-info.apiURL="http://wookietreiber.github.io/scala-chart/0.5.0/api/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3538" time="0" location="/Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.pom"/>
+				<caller organisation="glcohen" name="glcbot$sources_javadoc_2.11" conf="compile, runtime" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0" extra-info.apiURL="http://wookietreiber.github.io/scala-chart/0.5.0/api/"/>
+				<artifacts>
+					<artifact name="scala-chart_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1274113" time="6235" location="/Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/docs/scala-chart_2.11-0.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-chart_2.11" type="jar" ext="jar" status="no" details="" size="437889" time="0" location="/Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/jars/scala-chart_2.11-0.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0.jar"/>
+					</artifact>
+					<artifact name="scala-chart_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="38762" time="416" location="/Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/srcs/scala-chart_2.11-0.5.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-swing_2.11">
+			<revision name="1.0.2" status="release" pubdate="20150430092800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2537" time="0" location="/Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom"/>
+				<caller organisation="glcohen" name="glcbot$sources_javadoc_2.11" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-swing_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="79553" time="538" location="/Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/srcs/scala-swing_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-swing_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1535669" time="2167" location="/Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/docs/scala-swing_2.11-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-swing_2.11" type="jar" ext="jar" status="successful" details="" size="726498" time="980" location="/Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/jars/scala-swing_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jfree" name="jfreechart">
+			<revision name="1.0.19" status="release" pubdate="20140731083400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jfree.org/jfreechart/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3923" time="0" location="/Users/Gabe/.ivy2/cache/org.jfree/jfreechart/ivy-1.0.19.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.pom"/>
+				<caller organisation="glcohen" name="glcbot$sources_javadoc_2.11" conf="compile, runtime" rev="1.0.19" rev-constraint-default="1.0.19" rev-constraint-dynamic="1.0.19" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jfreechart" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="5206678" time="5365" location="/Users/Gabe/.ivy2/cache/org.jfree/jfreechart/docs/jfreechart-1.0.19-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-javadoc.jar"/>
+					</artifact>
+					<artifact name="jfreechart" type="jar" ext="jar" status="no" details="" size="1565065" time="0" location="/Users/Gabe/.ivy2/cache/org.jfree/jfreechart/jars/jfreechart-1.0.19.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar"/>
+					</artifact>
+					<artifact name="jfreechart" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2006715" time="2488" location="/Users/Gabe/.ivy2/cache/org.jfree/jfreechart/srcs/jfreechart-1.0.19-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jfree" name="jcommon">
+			<revision name="1.0.23" status="release" pubdate="20140724113600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jfree.org/jcommon/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3533" time="0" location="/Users/Gabe/.ivy2/cache/org.jfree/jcommon/ivy-1.0.23.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.pom"/>
+				<caller organisation="glcohen" name="glcbot$sources_javadoc_2.11" conf="compile, runtime" rev="1.0.23" rev-constraint-default="1.0.23" rev-constraint-dynamic="1.0.23" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jcommon" type="jar" ext="jar" status="no" details="" size="330246" time="0" location="/Users/Gabe/.ivy2/cache/org.jfree/jcommon/jars/jcommon-1.0.23.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar"/>
+					</artifact>
+					<artifact name="jcommon" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1422492" time="2226" location="/Users/Gabe/.ivy2/cache/org.jfree/jcommon/docs/jcommon-1.0.23-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-javadoc.jar"/>
+					</artifact>
+					<artifact name="jcommon" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="681693" time="1611" location="/Users/Gabe/.ivy2/cache/org.jfree/jcommon/srcs/jcommon-1.0.23-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
 			<revision name="1.0.2" status="release" pubdate="20140520041040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>

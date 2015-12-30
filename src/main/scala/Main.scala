@@ -3,6 +3,7 @@
   */
 
 import twitter4j._
+import scalax.chart.api._
 
 object Main {
   def main(args: Array[String]) {
@@ -11,6 +12,8 @@ object Main {
     var twitter = runAuth("app") // application auth for raising query limit to 450 tweets/15 min
     println("App auth successful")
     val (freqMapIter, tweetCount) = runIngest(twitter)
+    val freqMapIterDup = freqMapIter
+    val imgPath = generateChart(freqMapIterDup)
     println("Ingestion successful")
     val (avg, max, min, tot, days) = getAvgMaxMinTot(freqMapIter, tweetCount)
     println("Data fetch and calculations successful")
@@ -51,6 +54,26 @@ object Main {
     (freqMapIter, tweetCount)
   }
 
+  // Generate chart with data gathered on wotd
+  def generateChart(freqMapIter: Iterator[(String, Int)]): String = {
+    /*val data =
+      for (i <- 1 to 5) yield (i, i) */
+
+    var freqMap: Map[Float, Int] = Map()
+    while(freqMapIter.hasNext) { // some magic to convert a date "12/30" to float "12.30"
+      val (k, v) = freqMapIter.next
+      val newK = (k.substring(0, k.indexOf("/")) + "." + k.substring(k.indexOf("/") + 1, k.length)).toFloat
+      freqMap += (newK -> v)
+    }
+    implicit val theme = org.jfree.chart.StandardChartTheme.createDarknessTheme
+    val data = freqMap.toIndexedSeq
+    val chart = XYLineChart(data, title = IngestUtil.getWOTD() + " Twitter Usage in Last Month", legend = false)
+
+    val chartString = "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/wotd-" + IngestUtil.getDate() + ".jpg"
+    chart.saveAsJPEG(chartString)
+    chartString
+  }
+
   // (Average, Max, Min, Total) days and # tweets for WOTD
   def getAvgMaxMinTot(freqMapIter: Iterator[(String, Int)], tweetCount: Int): (String, String, String, String, String) = {
     var mapCounter = 0 // # elements in map
@@ -86,17 +109,17 @@ object Main {
 
   // Form and post tweet to Twitter
   def postTweet(twitter: Twitter, avg: String, max: String, min: String, tot: String, days: String) {
-    val tweet = IngestUtil.getWOTDString + "\n" + "Avg # tweets/day: " + avg + "\n" + "Max: " + max +
-      "\n" + "Min: " + min + "\n" + "# Tweets: " + tot + " over " + days + " days"
+    val tweet = IngestUtil.getWOTDString + "\n" + "Avg # tweets/day: " + avg + "\n" + "Max on " + max +
+      "\n" + "Min on " + min + "\n" + "# tweets: " + tot + " over " + days + " days"
     println(tweet)
-    IngestUtil.toFile(tweet, "twitterOutPut.txt") // write data to file
+    IngestUtil.toFile(tweet, "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/twitterOutPut.txt") // write data to file
 
-    if (tweet.length <= 140) {
+    /*if (tweet.length <= 140) {
       try {
         twitter.updateStatus(tweet)
       } catch {
         case te: TwitterException => te.printStackTrace()
       }
-    }
+    }*/
   }
 }

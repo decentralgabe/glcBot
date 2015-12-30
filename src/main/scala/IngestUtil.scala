@@ -13,7 +13,7 @@ object IngestUtil {
   // return single word
   def getWOTD(): String = {
     val wotdStr = getWOTDString
-    wotdStr.substring(0, wotdStr.indexOf(":"))
+    wotdStr.substring(0, wotdStr.indexOf(":")).capitalize
   }
 
   // return word and definition
