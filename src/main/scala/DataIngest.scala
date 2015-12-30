@@ -2,11 +2,13 @@
   * Created by glcohen on 12/26/15.
   */
 
-import java.util.{Calendar, ArrayList, Date}
+import java.util.{Calendar, Date}
 import twitter4j._
 import scala.collection.mutable.ListBuffer
 
 object DataIngest {
+  private final val rateLimit = 450 // # search queries per 15 min interval
+
   // takes list of dates, returns Map of form [frequency, day of month]
   def dateMapReduce(dateList: List[Date]): Map[String, Int] = {
     // map
@@ -31,11 +33,14 @@ object DataIngest {
   // Run query one time, return ListBuffer of Dates
   def runSingleQuery(twitter: Twitter, query: Query): ListBuffer[Date] = {
     val dateList = ListBuffer[Date]()
+    query.setCount(100) // make sure you get max each time
     val result = twitter.search(query)
     val tweets = result.getTweets
     val tweetsIter = tweets.listIterator()
-    println("Got " + result.getCount + " tweets.")
+
+    println("Got " + tweets.size + " tweets.")
     println("limit status: " + checkRateLimitStatus(twitter))
+
     while (tweetsIter.hasNext) {
       val nextTweet = tweetsIter.next()
       dateList += nextTweet.getCreatedAt // add date to dateList
@@ -45,17 +50,25 @@ object DataIngest {
   }
 
   // Run query multiple times, return ListBuffer of Dates
-  def runMultipleQueries(twitter: Twitter, query: Query, numQueries: Int): ListBuffer[Date] = {
+  def runMultipleQueries(twitter: Twitter, query: Query): (ListBuffer[Date], Int) = {
+    var tweetCount = 0
+    var queryCount = 0
     val dateList = ListBuffer[Date]() // list to hold all dates
     var lastID: Long = Long.MaxValue // used to make sure no duplicate tweets pulled
     var result: QueryResult = null
+    var tweets: java.util.List[Status] = null
+
     do {
       result = twitter.search(query)
-      val tweets = result.getTweets
+      tweets = result.getTweets
       val tweetsIter = tweets.listIterator()
 
-      println("Got " + result.getCount + " tweets.")
-      println("limit status: " + checkRateLimitStatus(twitter) + "\n")
+      //println("Got " + tweets.size + " tweets")
+      tweetCount += tweets.size // update tweet count
+
+      /*if (450 - queryCount % 3 == 0) { // checking status limited to 180 times/15 min
+        println("limit status: " + checkRateLimitStatus(twitter) + "\n")
+      }*/
 
       while (tweetsIter.hasNext) {
         val nextTweet = tweetsIter.next()
@@ -67,17 +80,19 @@ object DataIngest {
           lastID = tweets.get(i).getId()
         }
       }
-
+      queryCount += 1
       query.setMaxId(lastID - 1) // set max ID to make sure no duplicate tweets pulled
-    } while (result.getCount > 0 && checkRateLimitStatus(twitter) > 440)
+      println("\nQuery count: " + queryCount)
+      println("Tweets size: " + tweets.size + "\n")
+    } while (tweets.size > 0 && queryCount < rateLimit)
       // run while more tweets to pull and not near limit
-
-    dateList // return dateList
+    (dateList, tweetCount) // return dateList and tweetCount
   }
 
   // Get the remaining number of queries allowed in current 15-minute interval
+  // Only 180 of these queries allowed in a given 15 minute interval, less than # searches allowed
   def checkRateLimitStatus(twitter: Twitter): Int = {
-    val rateLimitStatus = twitter.getRateLimitStatus("search")
+    val rateLimitStatus = twitter.getRateLimitStatus
     rateLimitStatus.get("/search/tweets").getRemaining
   }
 
