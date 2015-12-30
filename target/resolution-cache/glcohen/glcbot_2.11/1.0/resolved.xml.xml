@@ -4,7 +4,7 @@
 		module="glcbot_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151230122320"
+		publication="20151230133547"
 	>
 		<description>
 		glcBot
@@ -33,6 +33,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.twitter4j" name="twitter4j-core" rev="4.0.4" conf="compile->default(compile)"/>
+		<dependency org="org.twitter4j" name="twitter4j-media-support" rev="4.0.4" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.2" conf="compile->default(compile)"/>
 		<dependency org="com.github.wookietreiber" name="scala-chart_2.11" rev="latest.integration" conf="compile->default(compile)"/>
 	</dependencies>

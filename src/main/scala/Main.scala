@@ -2,76 +2,45 @@
   * Created by glcohen on 12/29/15.
   */
 
+import java.io.File
 import twitter4j._
-import scalax.chart.api._
+import twitter4j.conf.{Configuration}
 
 object Main {
   def main(args: Array[String]) {
     val t0 = System.nanoTime()
     println("Running....")
-    var twitter = runAuth("app") // application auth for raising query limit to 450 tweets/15 min
-    println("App auth successful")
-    val (freqMapIter, tweetCount) = runIngest(twitter)
-    val freqMapIterDup = freqMapIter
-    val imgPath = generateChart(freqMapIterDup)
-    println("Ingestion successful")
-    val (avg, max, min, tot, days) = getAvgMaxMinTot(freqMapIter, tweetCount)
-    println("Data fetch and calculations successful")
-    twitter = runAuth("normal") // update authorization to enable posting to Twitter
-    println("Normal auth successful")
-    postTweet(twitter, avg, max, min, tot, days)
-    println("Tweet posted successfully!")
+
+    val twitterApp = AuthUtil.authApp() // application auth for raising query limit to 450 tweets/15 min
+    println("App auth done")
+
+    val (freqMap, tweetCount) = runIngest(twitterApp)
+    println("Ingestion done")
+
+    val imgPath = ChartUtil.generateChart(freqMap.toIterator)
+    println("Chart generation done")
+
+    val (config, twitterPost) = AuthUtil.authNormal() // updte authorization to enable posting to Twitter
+    println("Normal auth done")
+
+    val (avg, max, min, tot, days) = getAvgMaxMinTot(freqMap.toIterator, tweetCount)
+    println("Data fetch and calculations done")
+
+    postTweet(twitterPost, avg, max, min, tot, days, imgPath, config)
+    println("Tweet posted!")
+
     val t1 = System.nanoTime()
     println("Elapsed time: " + (t1 - t0) + "ns")
   }
 
-  // Run authorization protocol, return Twitter object
-  def runAuth(opt: String): Twitter = {
-    var twitter: Twitter = null
-    opt match {
-      case "app" => try {
-        twitter = AuthUtil.authApp()
-      } catch {
-        case te: TwitterException => te.printStackTrace()
-      }
-      case "normal" => try {
-        // normal setup
-        twitter = AuthUtil.authNormal()
-      } catch {
-        case te: TwitterException => te.printStackTrace()
-      }
-    }
-    twitter
-  }
-
   // Pull data from Twitter, return frequency map of Date -> Frequency for WOTD and tweet count
-  def runIngest(twitter: Twitter): (Iterator[(String, Int)], Int) = {
+  def runIngest(twitter: Twitter): (Map[String, Int], Int) = {
     val queryText = IngestUtil.getWOTD + " since:" + IngestUtil.getXMonthsAgo(1) // careful with this
     val query: Query = new Query(queryText)
     query.setCount(100) // get up to 100 tweets per query (max)
     val (result, tweetCount) = DataIngest.runMultipleQueries(twitter, query)
-    val freqMapIter = DataIngest.dateMapReduce(result.toList).toIterator
-    (freqMapIter, tweetCount)
-  }
-
-  // Generate chart with data gathered on wotd
-  def generateChart(freqMapIter: Iterator[(String, Int)]): String = {
-    /*val data =
-      for (i <- 1 to 5) yield (i, i) */
-
-    var freqMap: Map[Float, Int] = Map()
-    while(freqMapIter.hasNext) { // some magic to convert a date "12/30" to float "12.30"
-      val (k, v) = freqMapIter.next
-      val newK = (k.substring(0, k.indexOf("/")) + "." + k.substring(k.indexOf("/") + 1, k.length)).toFloat
-      freqMap += (newK -> v)
-    }
-    implicit val theme = org.jfree.chart.StandardChartTheme.createDarknessTheme
-    val data = freqMap.toIndexedSeq
-    val chart = XYLineChart(data, title = IngestUtil.getWOTD() + " Twitter Usage in Last Month", legend = false)
-
-    val chartString = "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/wotd-" + IngestUtil.getDate() + ".jpg"
-    chart.saveAsJPEG(chartString)
-    chartString
+    val freqMap = DataIngest.dateMapReduce(result.toList)
+    (freqMap, tweetCount)
   }
 
   // (Average, Max, Min, Total) days and # tweets for WOTD
@@ -108,18 +77,16 @@ object Main {
   }
 
   // Form and post tweet to Twitter
-  def postTweet(twitter: Twitter, avg: String, max: String, min: String, tot: String, days: String) {
-    val tweet = IngestUtil.getWOTDString + "\n" + "Avg # tweets/day: " + avg + "\n" + "Max on " + max +
-      "\n" + "Min on " + min + "\n" + "# tweets: " + tot + " over " + days + " days"
-    println(tweet)
+  def postTweet(twitter: Twitter, avg: String, max: String, min: String, tot: String, days: String, imgPath: String, config: Configuration) {
+    val tweet = IngestUtil.getWOTDString + "\n" + "Avg: " + avg + "\n" + "Max: " + max +
+      "\n" + "Min: " + min + "\n" + "Tweets: " + tot + " / " + days + " days"
     IngestUtil.toFile(tweet, "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/twitterOutPut.txt") // write data to file
 
-    /*if (tweet.length <= 140) {
-      try {
-        twitter.updateStatus(tweet)
-      } catch {
-        case te: TwitterException => te.printStackTrace()
-      }
-    }*/
+    //    val update: StatusUpdate = new StatusUpdate(tweet)
+    //    update.setMedia(new File(imgPath))
+
+    val upload = AuthUtil.authUpload(config)
+    val url = upload.upload(new File(imgPath), tweet)
+    println("Tweet posted: " + url)
   }
 }

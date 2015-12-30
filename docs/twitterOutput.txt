@@ -18,3 +18,101 @@ Avg # tweets/day:
 Max on 
 Min on 
 # tweets:  over  days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 
+Max on 
+Min on 
+# tweets:  over  days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 131
+Max on 12/30: 431
+Min on 12/26: 19
+# tweets: 1311 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 133
+Max on 12/30: 457
+Min on 12/26: 19
+# tweets: 1334 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 133
+Max on 12/30: 457
+Min on 12/26: 19
+# tweets: 1334 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 133
+Max on 12/30: 458
+Min on 12/26: 19
+# tweets: 1335 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 134
+Max on 12/30: 461
+Min on 12/26: 19
+# tweets: 1342 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 134
+Max on 12/30: 460
+Min on 12/26: 19
+# tweets: 1341 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 134
+Max on 12/30: 460
+Min on 12/26: 19
+# tweets: 1341 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 134
+Max on 12/30: 461
+Min on 12/26: 19
+# tweets: 1342 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 137
+Max on 12/30: 490
+Min on 12/26: 19
+# tweets: 1370 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 137
+Max on 12/30: 490
+Min on 12/26: 19
+# tweets: 1370 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 137
+Max on 12/30: 490
+Min on 12/26: 19
+# tweets: 1370 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg # tweets/day: 137
+Max on 12/30: 490
+Min on 12/26: 19
+# tweets: 1370 over 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg: 137
+Max: 12/30: 492
+Min: 12/26: 19
+Tweets: 1372 / 10 days

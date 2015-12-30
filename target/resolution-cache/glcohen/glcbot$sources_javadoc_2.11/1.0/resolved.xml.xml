@@ -4,7 +4,7 @@
 		module="glcbot$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151230122340"
+		publication="20151230133607"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -31,6 +31,10 @@
 		<dependency org="org.twitter4j" name="twitter4j-core" rev="4.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="twitter4j-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="twitter4j-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.twitter4j" name="twitter4j-media-support" rev="4.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="twitter4j-media-support" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="twitter4j-media-support" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>

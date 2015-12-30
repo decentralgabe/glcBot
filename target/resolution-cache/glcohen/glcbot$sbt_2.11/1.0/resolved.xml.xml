@@ -4,7 +4,7 @@
 		module="glcbot$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151230122331"
+		publication="20151230133553"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

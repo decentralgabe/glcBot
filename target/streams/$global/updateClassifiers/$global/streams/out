@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for glcohen#glcbot$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@81efaba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67b0af5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -17,15 +17,23 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->default(compile)]
 [info] Resolving org.twitter4j#twitter4j-core;4.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@503602f2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22cd477
 [debug] sbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;4.0.4
 [debug] 	found org.twitter4j#twitter4j-core;4.0.4 in sbt-chain
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->default(compile)]
+[info] Resolving org.twitter4j#twitter4j-media-support;4.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@752cb4cd
+[debug] sbt-chain: module revision found in cache: org.twitter4j#twitter4j-media-support;4.0.4
+[debug] 	found org.twitter4j#twitter4j-media-support;4.0.4 in sbt-chain
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36dfe178
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c149c44
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
@@ -33,7 +41,7 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;0.5.0 [compile->default(compile)]
 [info] Resolving com.github.wookietreiber#scala-chart_2.11;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@712bb72d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c92fa31
 [debug] sbt-chain: module revision found in cache: com.github.wookietreiber#scala-chart_2.11;0.5.0
 [debug] 	found com.github.wookietreiber#scala-chart_2.11;0.5.0 in sbt-chain
 [debug] 	[0.5.0] com.github.wookietreiber#scala-chart_2.11;0.5.0
@@ -42,7 +50,7 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->com.github.wookietreiber#scala-chart_2.11;0.5.0 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.jfree#jfreechart;1.0.19 [compile->default(compile)]
 [info] Resolving org.jfree#jfreechart;1.0.19 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fa995a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c52837f
 [debug] sbt-chain: module revision found in cache: org.jfree#jfreechart;1.0.19
 [debug] 	found org.jfree#jfreechart;1.0.19 in sbt-chain
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.jfree#jfreechart;1.0.19 [compile->runtime]
@@ -50,7 +58,7 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.jfree#jfreechart;1.0.19 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.jfree#jcommon;1.0.23 [compile->default(compile)]
 [info] Resolving org.jfree#jcommon;1.0.23 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e949e94
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fbd5e23
 [debug] sbt-chain: module revision found in cache: org.jfree#jcommon;1.0.23
 [debug] 	found org.jfree#jcommon;1.0.23 in sbt-chain
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.jfree#jcommon;1.0.23 [compile->runtime]
@@ -58,7 +66,7 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.jfree#jcommon;1.0.23 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-swing_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@439c9e41
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26d6fc14
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-swing_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-swing_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [compile->runtime]
@@ -75,6 +83,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
@@ -103,6 +115,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
@@ -135,6 +151,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
@@ -163,6 +183,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
@@ -191,6 +215,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
@@ -226,6 +254,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
@@ -256,6 +288,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile-internal->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile-internal->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile-internal->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile-internal->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile-internal->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->compile]
@@ -288,6 +324,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
@@ -316,6 +356,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
@@ -345,6 +389,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime-internal->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime-internal->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime-internal->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime-internal->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->compile]
@@ -378,6 +426,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [compile->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [compile->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
@@ -406,6 +458,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [runtime->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [runtime->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
@@ -434,6 +490,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
@@ -464,6 +524,10 @@
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test-internal->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test-internal->compile]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-core;4.0.4 [test-internal->master]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test-internal->runtime]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test-internal->compile]
+[debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.twitter4j#twitter4j-media-support;4.0.4 [test-internal->master]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime]
 [debug] == resolving dependencies glcohen#glcbot$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile]
@@ -547,75 +611,36 @@
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar(src)
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.4!twitter4j-core.jar(doc)
+[debug] 		tried /Users/Gabe/.ivy2/local/org.twitter4j/twitter4j-media-support/4.0.4/srcs/twitter4j-media-support-sources.jar
+[debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-media-support;4.0.4!twitter4j-media-support.jar
+[debug] 		tried /Users/Gabe/.ivy2/local/org.twitter4j/twitter4j-media-support/4.0.4/docs/twitter4j-media-support-javadoc.jar
+[debug] 		tried https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-sources.jar
+[info] downloading https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-sources.jar
+[info] 	[SUCCESSFUL ] org.twitter4j#twitter4j-media-support;4.0.4!twitter4j-media-support.jar(src) (557ms)
+[debug] 		tried https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-javadoc.jar
+[info] downloading https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-javadoc.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-javadoc.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-javadoc.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4-javadoc.jar
+[info] 	[SUCCESSFUL ] org.twitter4j#twitter4j-media-support;4.0.4!twitter4j-media-support.jar(doc) (445ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(doc)
-[debug] 		tried /Users/Gabe/.ivy2/local/com.github.wookietreiber/scala-chart_2.11/0.5.0/docs/scala-chart_2.11-javadoc.jar
+[debug] 	[NOT REQUIRED] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/com.github.wookietreiber/scala-chart_2.11/0.5.0/srcs/scala-chart_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-javadoc.jar
-[info] downloading https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-javadoc.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-javadoc.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-javadoc.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-javadoc.jar
-[info] 	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.jar(doc) (6235ms)
-[debug] 		tried https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-sources.jar
-[info] downloading https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/wookietreiber/scala-chart_2.11/0.5.0/scala-chart_2.11-0.5.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.jar(src) (416ms)
+[debug] 	[NOT REQUIRED] com.github.wookietreiber#scala-chart_2.11;0.5.0!scala-chart_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.jfree#jfreechart;1.0.19!jfreechart.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jfreechart/1.0.19/docs/jfreechart-javadoc.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jfreechart/1.0.19/srcs/jfreechart-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-javadoc.jar
-[info] downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-javadoc.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-javadoc.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-javadoc.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-javadoc.jar
-[info] 	[SUCCESSFUL ] org.jfree#jfreechart;1.0.19!jfreechart.jar(doc) (5365ms)
-[debug] 		tried https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar
-[info] downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar
-[info] 	[SUCCESSFUL ] org.jfree#jfreechart;1.0.19!jfreechart.jar(src) (2488ms)
+[debug] 	[NOT REQUIRED] org.jfree#jfreechart;1.0.19!jfreechart.jar(doc)
+[debug] 	[NOT REQUIRED] org.jfree#jfreechart;1.0.19!jfreechart.jar(src)
 [debug] 	[NOT REQUIRED] org.jfree#jcommon;1.0.23!jcommon.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jcommon/1.0.23/docs/jcommon-javadoc.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.jfree/jcommon/1.0.23/srcs/jcommon-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-javadoc.jar
-[info] downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-javadoc.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-javadoc.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-javadoc.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-javadoc.jar
-[info] 	[SUCCESSFUL ] org.jfree#jcommon;1.0.23!jcommon.jar(doc) (2226ms)
-[debug] 		tried https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar
-[info] downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar
-[info] 	[SUCCESSFUL ] org.jfree#jcommon;1.0.23!jcommon.jar(src) (1611ms)
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.2/srcs/scala-swing_2.11-sources.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.2/docs/scala-swing_2.11-javadoc.jar
-[debug] 		tried /Users/Gabe/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.2/jars/scala-swing_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(src) (538ms)
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-javadoc.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-javadoc.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-javadoc.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-javadoc.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(doc) (2167ms)
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar (980ms)
+[debug] 	[NOT REQUIRED] org.jfree#jcommon;1.0.23!jcommon.jar(doc)
+[debug] 	[NOT REQUIRED] org.jfree#jcommon;1.0.23!jcommon.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(doc)
@@ -626,7 +651,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 381ms :: artifacts dl 22088ms
+[debug] :: resolution report :: resolve 517ms :: artifacts dl 1098ms
 [debug] 	report for glcohen#glcbot$sources_javadoc_2.11;1.0 compile produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_javadoc_2.11-compile.xml
 [debug] 	report for glcohen#glcbot$sources_javadoc_2.11;1.0 runtime produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_javadoc_2.11-runtime.xml
 [debug] 	report for glcohen#glcbot$sources_javadoc_2.11;1.0 test produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_javadoc_2.11-test.xml
@@ -640,4 +665,4 @@
 [debug] 	report for glcohen#glcbot$sources_javadoc_2.11;1.0 docs produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_javadoc_2.11-docs.xml
 [debug] 	report for glcohen#glcbot$sources_javadoc_2.11;1.0 pom produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_javadoc_2.11-pom.xml
 [debug] 	report for glcohen#glcbot$sources_javadoc_2.11;1.0 scala-tool produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (381ms resolve - 22088ms download)
+[debug] 	resolve done (517ms resolve - 1098ms download)

@@ -57,6 +57,7 @@ object DataIngest {
     var lastID: Long = Long.MaxValue // used to make sure no duplicate tweets pulled
     var result: QueryResult = null
     var tweets: java.util.List[Status] = null
+    println("Query is: " + query)
 
     do {
       result = twitter.search(query)

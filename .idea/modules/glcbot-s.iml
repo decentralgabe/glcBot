@@ -30,5 +30,6 @@
     <orderEntry type="library" name="SBT: org.jfree:jcommon:1.0.23:jar" level="project" />
     <orderEntry type="library" name="SBT: org.jfree:jfreechart:1.0.19:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-swing_2.11:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-media-support:4.0.4:jar" level="project" />
   </component>
 </module>
