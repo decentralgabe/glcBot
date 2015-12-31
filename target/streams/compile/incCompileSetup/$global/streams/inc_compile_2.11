@@ -1,0 +1,529 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+16 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/AuthUtil$.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/AuthUtil.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/ChartUtil$.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/ChartUtil.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$1.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$2.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$dateMapReduce$1.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$dateMapReduce$2.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$runMultipleQueries$1.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil$$anonfun$1.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil$.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/Main$.class
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/Main.class
+binary dependencies:
+19 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> /Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> /Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> /Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/jars/twitter4j-media-support-4.0.4.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/jars/scala-chart_2.11-0.5.0.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/.ivy2/cache/org.jfree/jfreechart/jars/jfreechart-1.0.19.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> /Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> /Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> /Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/jars/twitter4j-media-support-4.0.4.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+5 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+16 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> AuthUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> AuthUtil$
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ChartUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ChartUtil$
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest$
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest$$anonfun$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest$$anonfun$2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest$$anonfun$dateMapReduce$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest$$anonfun$dateMapReduce$2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest$$anonfun$runMultipleQueries$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> IngestUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> IngestUtil$
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> IngestUtil$$anonfun$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Main
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Main$
+used names:
+356 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> &&
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> +
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> <init>
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> ==
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> AnyRef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> AuthUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> Configuration
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> ConfigurationBuilder
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> ImageUploadFactory
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> OAuthAuthorization
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> Predef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> Tuple2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> Twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> TwitterFactory
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> accessToken
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> accessTokenSecret
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> auth
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> build
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> cb
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> conf
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> config
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> consumerKey
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> consumerSecret
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> get
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> getInstance
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> getLimit
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> getOAuth2Token
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> getRateLimitStatus
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> getScreenName
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> getTokenType
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> media
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> println
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> rateLimitStatus
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> searchTweetsRateLimit
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setApplicationOnlyAuthEnabled
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setDebugEnabled
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setOAuthAccessToken
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setOAuthAccessTokenSecret
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setOAuthConsumer
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setOAuthConsumerKey
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> setOAuthConsumerSecret
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> token
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> twitter4j
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> upload
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> +
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ->
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> <init>
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> AnyRef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ChartJPEGExporter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ChartUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> File
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Float
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> FloatIsFractional
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> FromTuple2s
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> IngestUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Int
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> IntIsIntegral
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Iterator
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Long
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Map
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Numeric
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Predef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> StandardChartTheme
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> String
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ToXYDataset
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Tuple2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> Twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> TwitterException
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> UploadedMedia
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> XYLineChart
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> _1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> _2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> api
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> apply
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> augmentString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> chart
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> chartString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> createLegacyTheme
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> data
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> freqMap
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> freqMapIter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> getDate
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> getMediaId
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> getMessage
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> getWOTD
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> hasNext
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> indexOf
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> io
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> java
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> jfree
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> k
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> length
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> math
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> media
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> mediaID
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> ne
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> newK
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> next
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> org
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> package
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> printStackTrace
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> println
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> qual$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> saveAsJPEG
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> scalax
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> substring
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> te
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> theme
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> toFloat
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> toIndexedSeq
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> twitter4j
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> unchecked
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> uploadMedia
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> v
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> while$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> x$2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> x$3
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> x$4
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> x$5
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> x$6
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> x$7
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> &&
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> +
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> +=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> -
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> ->
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> <
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> <init>
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> >
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> AnyRef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Calendar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> DataIngest
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Date
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Int
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> List
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> ListBuffer
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Long
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Map
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Predef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Query
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> QueryResult
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Status
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> String
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Tuple2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> Twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> _1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> _2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> apply
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> c
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> cal
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> calList
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> canBuildFrom
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> checkRateLimitStatus
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> collection
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> contains
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> d
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> date
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> dateList
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> dateToCalendar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> doWhile$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> foreach
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> freqList
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> freqMap
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> get
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> getCreatedAt
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> getId
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> getInstance
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> getRateLimitStatus
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> getRemaining
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> getTweets
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> hasNext
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> i
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> immutable
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> intWrapper
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> java
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> k
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> lastID
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> listIterator
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> map
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> mutable
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> ne
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> next
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> nextTweet
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> package
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> println
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> query
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> queryCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> rateLimitStatus
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> result
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> search
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> setCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> setMaxId
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> setTime
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> size
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> toString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> tweetCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> tweets
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> tweetsIter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> twitter4j
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> unchecked
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> until
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> util
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> v
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> vs
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> while$1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> while$2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> withFilter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> *
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> +
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> -
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> <init>
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> AnyRef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> Calendar
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> FileWriter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> IngestUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> Int
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> Predef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> Seq
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> SimpleDateFormat
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> String
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> Unit
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> XML
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> \\
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> add
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> augmentString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> cal
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> canBuildFrom
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> capitalize
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> close
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> fileName
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> firstTitle
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> format
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> fw
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> getDate
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> getInstance
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> getTime
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> getWOTDString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> immutable
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> indexOf
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> io
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> java
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> lastIndexOf
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> length
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> load
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> map
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> mkString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> months
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> println
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> substring
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> text
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> unary_-
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> util
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> wotd
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> wotdStr
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> write
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> xml
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> years
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> !=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> &&
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> +
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> -
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> /
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> <
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> <init>
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> >
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> AnyRef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Array
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> AuthUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> ChartUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Configuration
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> DataIngest
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> File
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> IngestUtil
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Int
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Iterator
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Main
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Map
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Predef
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Query
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> String
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> System
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Tuple2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Tuple5
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> Unit
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> _1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> _2
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> _3
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> _4
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> _5
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> authApp
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> authNormal
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> authUpload
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> avg
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> conf
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> config
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> dateMapReduce
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> days
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> freqMap
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> freqMapIter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> generateChart
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> getAvgMaxMinTot
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> getWOTD
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> getWOTDString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> getXMonthsAgo
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> hasNext
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> imgPath
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> io
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> java
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> key
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> lang
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> mapCounter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> max
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> maxCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> maxDay
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> min
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> minCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> minDay
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> nanoTime
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> ne
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> next
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> package
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> postTweet
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> println
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> query
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> queryText
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> result
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> runIngest
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> runMultipleQueries
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> scala
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> setCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> t0
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> t1
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> toFile
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> toIterator
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> toList
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> toString
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> tot
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> tweet
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> tweetCount
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> twitter
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> twitter4j
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> twitterApp
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> twitterPost
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> unchecked
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> upload
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> url
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> value
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> while$1
+product stamps:
+16 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/AuthUtil$.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/AuthUtil.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/ChartUtil$.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/ChartUtil.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$1.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$2.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$dateMapReduce$1.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$dateMapReduce$2.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$runMultipleQueries$1.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil$$anonfun$1.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil$.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/Main$.class -> lastModified(1451531082000)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/Main.class -> lastModified(1451531082000)
+source stamps:
+5 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> hash(b4e92f59dbc65e7fb781c9ba47226f8ae45efe7b)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> hash(15559ac31d6aec91a4364dfd56b5f693efc2ff34)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> hash(11d62f6284b87787b55ee5ad7c7a625e8bc7d0f2)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> hash(d67a98889454e155bddea96b16426ee91f5580aa)
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> hash(cdc41f9d101f6c6c0e50a1da36a9bb8cf4ad0032)
+binary stamps:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1406304240000)
+/Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/jars/scala-chart_2.11-0.5.0.jar -> lastModified(1441011251000)
+/Users/Gabe/.ivy2/cache/org.jfree/jfreechart/jars/jfreechart-1.0.19.jar -> lastModified(1406826735000)
+/Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar -> lastModified(1400573445000)
+/Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
+/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar -> lastModified(1435063458000)
+/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/jars/twitter4j-media-support-4.0.4.jar -> lastModified(1435055280000)
+class names:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/Gabe/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/jars/scala-chart_2.11-0.5.0.jar -> scalax.chart.exporting.JPEGExporter
+/Users/Gabe/.ivy2/cache/org.jfree/jfreechart/jars/jfreechart-1.0.19.jar -> org.jfree.chart.ChartTheme
+/Users/Gabe/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar -> scala.xml.Elem
+/Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.package$
+/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar -> twitter4j.Query
+/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/jars/twitter4j-media-support-4.0.4.jar -> twitter4j.media.ImageUpload
+internal apis:
+5 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAo1FWOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEi1oXt0AAZub3RpZnlzcQB+AAwk6TKNdAAEd2FpdHNxAH4ADAOYdwB0AAtjb25zdW1lcktleXNxAH4ADP4Eq7t0AA0kYXNJbnN0YW5jZU9mc3EAfgAM2jOimXQABmVxdWFsc3NxAH4ADA0sycR0AAxhc0luc3RhbmNlT2ZzcQB+AAyzMR1sdAAMc3luY2hyb25pemVkc3EAfgAMy+DIc3QADSRpc0luc3RhbmNlT2ZzcQB+AAwVdGgldAAJbm90aWZ5QWxsc3EAfgAMk2fmt3QADGlzSW5zdGFuY2VPZnNxAH4ADCBfRiR0AAhBdXRoVXRpbHNxAH4ADIYgqmJ0ABFhY2Nlc3NUb2tlblNlY3JldHNxAH4ADABY+kp0AAphdXRoVXBsb2Fkc3EAfgAMoi7KZnQACmF1dGhOb3JtYWxzcQB+AAwnr3UrdAAOY29uc3VtZXJTZWNyZXRzcQB+AAwkrkyFdAACPT1zcQB+AAydaW5NdAAFY2xvbmVzcQB+AAxuZCZEdAAHYXV0aEFwcHNxAH4ADAtjf4d0AAh0b1N0cmluZ3NxAH4ADBEUhGB0AAIhPXNxAH4ADKO/3s10AAhnZXRDbGFzc3NxAH4ADNB1o9Z0AAJuZXNxAH4ADMwfJER0AAJlcXNxAH4ADN05s7N0AAIjI3NxAH4ADNyRlgd0AAhmaW5hbGl6ZXNxAH4ADMKURtd0AAhoYXNoQ29kZXNxAH4ADLT5w2R0AAthY2Nlc3NUb2tlbnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AI3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AZAFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ATUwACWluaGVyaXRlZHEAfgBNTAAHcGFyZW50c3EAfgBNeHEAfgBrc3EAfgBkAXVxAH4ASAAAAABwc3EAfgBkAXVxAH4ASAAAAABwc3EAfgBkAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AanQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AanNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ag3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhHNxAH4Ad3QAA0FueXNxAH4Ae3NxAH4AfnVxAH4AgQAAAAJzcQB+AIN0AAVzY2FsYXEAfgCKcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX+kht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFL1VzZXJzL0dhYmUvRG9jdW1lbnRzL0lkZWFQcm9qZWN0cy9nbGNCb3Qtcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUtOkvWdvGXn+3gcm6RyJviuRe/ns=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCRkUNTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOPLkDh0AAZub3RpZnlzcQB+AAwia2YHdAAEd2FpdHNxAH4ADPm7Aj90AA0kYXNJbnN0YW5jZU9mc3EAfgAM3FWsOXQABmVxdWFsc3NxAH4ADCeLsX90AA1nZW5lcmF0ZUNoYXJ0c3EAfgAM7CwaVHQADGFzSW5zdGFuY2VPZnNxAH4ADKRi8u90AAxzeW5jaHJvbml6ZWRzcQB+AAzu6eIrdAANJGlzSW5zdGFuY2VPZnNxAH4ADM4xt6V0AAlDaGFydFV0aWxzcQB+AAxkXK6NdAAJbm90aWZ5QWxsc3EAfgAMpV91ZnQADGlzSW5zdGFuY2VPZnNxAH4ADCLFrqp0AAt1cGxvYWRDaGFydHNxAH4ADCvfK590AAI9PXNxAH4ADF8r03J0AAVjbG9uZXNxAH4ADAroh9h0AAh0b1N0cmluZ3NxAH4ADHg4GSV0AAIhPXNxAH4ADL/j2zd0AAhnZXRDbGFzc3NxAH4ADLLJSMx0AAJuZXNxAH4ADEMUr3t0AAJlcXNxAH4ADHt5vpF0AAIjI3NxAH4ADP7lWwR0AAhmaW5hbGl6ZXNxAH4ADGfwufV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AH3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AWgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBhc3EAfgBaAXVxAH4APgAAAABwc3EAfgBaAXVxAH4APgAAAABwc3EAfgBaAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AeXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AenNxAH4AbXQAA0FueXNxAH4AcXNxAH4AdHVxAH4AdwAAAAJzcQB+AHl0AAVzY2FsYXEAfgCAcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX+kht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFL1VzZXJzL0dhYmUvRG9jdW1lbnRzL0lkZWFQcm9qZWN0cy9nbGNCb3Qtcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUFVWawx1q7JGkNk39VrX2k+/C/zQ=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDfzji+AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMzFjch0AAZub3RpZnlzcQB+AAxnLi3KdAAEd2FpdHNxAH4ADKL40ox0AA0kYXNJbnN0YW5jZU9mc3EAfgAMMwseGHQACkRhdGFJbmdlc3RzcQB+AAyFk1nedAAGZXF1YWxzc3EAfgAMEha3eHQADWRhdGVNYXBSZWR1Y2VzcQB+AAw8eMk8dAAMYXNJbnN0YW5jZU9mc3EAfgAMmVi89XQADHN5bmNocm9uaXplZHNxAH4ADMkFVId0AA5kYXRlVG9DYWxlbmRhcnNxAH4ADMoa8FJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMFPk8oHQACXJhdGVMaW1pdHNxAH4ADPEsRVB0AAlub3RpZnlBbGxzcQB+AAyW8HPOdAAMaXNJbnN0YW5jZU9mc3EAfgAM39t2mnQAAj09c3EAfgAMXiz90XQABWNsb25lc3EAfgAM0ofYknQACHRvU3RyaW5nc3EAfgAMTu1u+3QAAiE9c3EAfgAMnEVS/XQACGdldENsYXNzc3EAfgAMaIJlf3QADnJ1blNpbmdsZVF1ZXJ5c3EAfgAMX1F55HQAAm5lc3EAfgAMheKKIXQAAmVxc3EAfgAMMyTObnQAEnJ1bk11bHRpcGxlUXVlcmllc3NxAH4ADH2CZiB0ABRjaGVja1JhdGVMaW1pdFN0YXR1c3NxAH4ADB/nQKt0AAIjI3NxAH4ADM8KpYh0AAhmaW5hbGl6ZXNxAH4ADMmOthd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AFXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AYgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBpc3EAfgBiAXVxAH4ARgAAAABwc3EAfgBiAXVxAH4ARgAAAABwc3EAfgBiAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnNxAH4AdXQAA0FueXNxAH4AeXNxAH4AfHVxAH4AfwAAAAJzcQB+AIF0AAVzY2FsYXEAfgCIcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX+kht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFL1VzZXJzL0dhYmUvRG9jdW1lbnRzL0lkZWFQcm9qZWN0cy9nbGNCb3Qtcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUEdYvYoS4d4e1XuWtfHpiXovH0PI=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBxrVJrAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJ1Kp190AAZub3RpZnlzcQB+AAylD3PhdAAEd2FpdHNxAH4ADLfjCRF0AA0kYXNJbnN0YW5jZU9mc3EAfgAMAVchA3QABmVxdWFsc3NxAH4ADM7Hm/F0AA1nZXRXT1REU3RyaW5nc3EAfgAMwcl2AnQADGFzSW5zdGFuY2VPZnNxAH4ADG1wl2J0AA1nZXRYTW9udGhzQWdvc3EAfgAMtQA673QADHN5bmNocm9uaXplZHNxAH4ADB5Cpzh0AA0kaXNJbnN0YW5jZU9mc3EAfgAMIr6l0XQAB2dldERhdGVzcQB+AAwBelCSdAAJbm90aWZ5QWxsc3EAfgAMDwI9TnQADGlzSW5zdGFuY2VPZnNxAH4ADLSu1Kd0AApJbmdlc3RVdGlsc3EAfgAMBf2qcnQAB2dldFdPVERzcQB+AAwYK4uYdAACPT1zcQB+AAzAtpTpdAAFY2xvbmVzcQB+AAybs/1WdAAMZ2V0WFllYXJzQWdvc3EAfgAMNMbYF3QACHRvU3RyaW5nc3EAfgAM73ZkBXQAAiE9c3EAfgAM8bXkd3QACGdldENsYXNzc3EAfgAM6r2FdHQAAm5lc3EAfgAMZXdUvHQAAmVxc3EAfgAMWhqWeXQABnRvRmlsZXNxAH4ADEBJ+Xd0AAIjI3NxAH4ADIqLi450AAhmaW5hbGl6ZXNxAH4ADGwpb4V0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AJ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AYgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBpc3EAfgBiAXVxAH4ARgAAAABwc3EAfgBiAXVxAH4ARgAAAABwc3EAfgBiAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnNxAH4AdXQAA0FueXNxAH4AeXNxAH4AfHVxAH4AfwAAAAJzcQB+AIF0AAVzY2FsYXEAfgCIcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX+kht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFL1VzZXJzL0dhYmUvRG9jdW1lbnRzL0lkZWFQcm9qZWN0cy9nbGNCb3Qtcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU1nqYiJRU4VW93qlrFkJu6R9VgKo=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCssTtUAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPbjxQZ0AAZub3RpZnlzcQB+AAxOTUcbdAAEd2FpdHNxAH4ADGBKIyZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMdkuShnQACXBvc3RUd2VldHNxAH4ADKIC6/d0AAZlcXVhbHNzcQB+AAyLdy0IdAAMYXNJbnN0YW5jZU9mc3EAfgAMHsuC8nQAD2dldEF2Z01heE1pblRvdHNxAH4ADEgm0ih0AAxzeW5jaHJvbml6ZWRzcQB+AAwS+s2ndAANJGlzSW5zdGFuY2VPZnNxAH4ADCByHox0AARtYWluc3EAfgAMXSrs83QACW5vdGlmeUFsbHNxAH4ADKiHcll0AAxpc0luc3RhbmNlT2ZzcQB+AAwe9ojNdAAJcnVuSW5nZXN0c3EAfgAMRUAxYXQAAj09c3EAfgAMMdillnQABWNsb25lc3EAfgAMC2lUi3QABE1haW5zcQB+AAwp2qJXdAAIdG9TdHJpbmdzcQB+AAwo3axNdAACIT1zcQB+AAz2jva6dAAIZ2V0Q2xhc3NzcQB+AAzTS0awdAACbmVzcQB+AAz/0aa8dAACZXFzcQB+AAx1h7yCdAACIyNzcQB+AAwM636fdAAIZmluYWxpemVzcQB+AAzU8EpHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AC11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AF4Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AZXNxAH4AXgF1cQB+AEIAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEhxAH4AUXVxAH4AUgAAAABzcQB+AFQAcQB+ACF1cQB+AFYAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIB1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBteHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBZdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB0WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBkc3EAfgBzdAAFQXJyYXlxAH4AeXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBzdAAGU3RyaW5nc3EAfgB3c3EAfgB6dXEAfgB9AAAAA3NxAH4Af3QABGphdmFzcQB+AH90AARsYW5ncQB+AIRwc3EAfgBeAXVxAH4AQgAAAABwc3EAfgBeAXVxAH4AmAAAAAJzcQB+AHN0AAZPYmplY3RxAH4AnHNxAH4Ac3QAA0FueXEAfgB5cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX+kht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFL1VzZXJzL0dhYmUvRG9jdW1lbnRzL0lkZWFQcm9qZWN0cy9nbGNCb3Qtcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUzcQfnRAfbGwOUKHaNqm7jPStADI=
+external apis:
+0 items
+source infos:
+5 items
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala -> 
+AAAAAAAAAAA=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala -> 
+AAAAAAAAAAA=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala -> 
+AAAAAAAAAAA=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala -> 
+AAAAAAAAAAA=
+/Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX4B1t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9Vc2Vycy9HYWJlL0RvY3VtZW50cy9JZGVhUHJvamVjdHMvZ2xjQm90LXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfX+kht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9Vc2Vycy9HYWJlL0RvY3VtZW50cy9JZGVhUHJvamVjdHMvZ2xjQm90LXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

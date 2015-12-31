@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/glcbot_2.11-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Main.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/Main.scala[0m
+[0m[[0mdebug[0m] [0m	ChartUtil.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/ChartUtil.scala[0m
+[0m[[0mdebug[0m] [0m	DataIngest.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/DataIngest.scala[0m
+[0m[[0mdebug[0m] [0m	IngestUtil.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/IngestUtil.scala[0m
+[0m[[0mdebug[0m] [0m	AuthUtil.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/src/main/scala/AuthUtil.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

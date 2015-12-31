@@ -20,6 +20,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/universal" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -31,5 +32,8 @@
     <orderEntry type="library" name="SBT: org.jfree:jfreechart:1.0.19:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-swing_2.11:1.0.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-media-support:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.scala-logging:scala-logging_2.11:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.7:jar" level="project" />
   </component>
 </module>

@@ -1,0 +1,35 @@
+[0m[[0minfo[0m] [0mPackaging /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/glcbot_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Main.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/Main.class[0m
+[0m[[0mdebug[0m] [0m	ChartUtil.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/ChartUtil.class[0m
+[0m[[0mdebug[0m] [0m	IngestUtil.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest$$anonfun$dateMapReduce$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$dateMapReduce$1.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	IngestUtil$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil$.class[0m
+[0m[[0mdebug[0m] [0m	IngestUtil$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/IngestUtil$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest$$anonfun$dateMapReduce$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$dateMapReduce$2.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest$$anonfun$runMultipleQueries$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$runMultipleQueries$1.class[0m
+[0m[[0mdebug[0m] [0m	AuthUtil$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/AuthUtil$.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	ChartUtil$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/ChartUtil$.class[0m
+[0m[[0mdebug[0m] [0m	Main$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/Main$.class[0m
+[0m[[0mdebug[0m] [0m	AuthUtil.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/AuthUtil.class[0m
+[0m[[0mdebug[0m] [0m	DataIngest$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/scala-2.11/classes/DataIngest$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

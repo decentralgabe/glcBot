@@ -81,10 +81,6 @@ object Main {
     val tweet = IngestUtil.getWOTDString + "\n" + "Avg: " + avg + "\n" + "Max: " + max +
       "\n" + "Min: " + min + "\n" + "Tweets: " + tot + " / " + days + " days"
     IngestUtil.toFile(tweet, "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/twitterOutPut.txt") // write data to file
-
-    //    val update: StatusUpdate = new StatusUpdate(tweet)
-    //    update.setMedia(new File(imgPath))
-
     val upload = AuthUtil.authUpload(config)
     val url = upload.upload(new File(imgPath), tweet)
     println("Tweet posted: " + url)

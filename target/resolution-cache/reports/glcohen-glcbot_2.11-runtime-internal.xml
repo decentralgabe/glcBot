@@ -7,8 +7,43 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20151230133548"/>
+		date="20151230220439"/>
 	<dependencies>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.11">
+			<revision name="3.1.0" status="release" pubdate="20140813103800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3222" time="0" location="/Users/Gabe/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/scala-logging/scala-logging_2.11/3.1.0/scala-logging_2.11-3.1.0.pom"/>
+				<caller organisation="glcohen" name="glcbot_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-logging_2.11" type="jar" ext="jar" status="no" details="" size="34335" time="0" location="/Users/Gabe/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/jars/scala-logging_2.11-3.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/scala-logging/scala-logging_2.11/3.1.0/scala-logging_2.11-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404071200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/Users/Gabe/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.11" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/Gabe/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.1" status="release" pubdate="20140520040200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="9">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/Gabe/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4372892" time="0" location="/Users/Gabe/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.github.wookietreiber" name="scala-chart_2.11">
 			<revision name="0.5.0" status="release" pubdate="20150831045402" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/wookietreiber/scala-chart" extra-info.apiURL="http://wookietreiber.github.io/scala-chart/0.5.0/api/" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="4">
 				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
@@ -70,12 +105,12 @@
 			</revision>
 		</module>
 		<module organisation="org.twitter4j" name="twitter4j-media-support">
-			<revision name="4.0.4" status="release" pubdate="20150623062800" resolver="jcenter" artresolver="jcenter" homepage="http://twitter4j.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+			<revision name="4.0.4" status="release" pubdate="20150623062800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="7117" time="311" location="/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/ivy-4.0.4.xml" searched="true" original-local-location="/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/ivy-4.0.4.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4.pom"/>
+				<metadata-artifact status="no" details="" size="3232" time="0" location="/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/ivy-4.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4.pom"/>
 				<caller organisation="glcohen" name="glcbot_2.11" conf="optional, compile, runtime, runtime-internal" rev="4.0.4" rev-constraint-default="4.0.4" rev-constraint-dynamic="4.0.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="twitter4j-media-support" type="jar" ext="jar" status="successful" details="" size="21426" time="351" location="/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/jars/twitter4j-media-support-4.0.4.jar">
+					<artifact name="twitter4j-media-support" type="jar" ext="jar" status="no" details="" size="21426" time="0" location="/Users/Gabe/.ivy2/cache/org.twitter4j/twitter4j-media-support/jars/twitter4j-media-support-4.0.4.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/twitter4j/twitter4j-media-support/4.0.4/twitter4j-media-support-4.0.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -100,8 +135,10 @@
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
 				<caller organisation="org.scala-lang.modules" name="scala-swing_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.2"/>
 				<caller organisation="com.github.wookietreiber" name="scala-chart_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.5.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
 				<caller organisation="glcohen" name="glcbot_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="3.1.0"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/Gabe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
@@ -116,7 +153,9 @@
 			</revision>
 			<revision name="2.11.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="-1">
 				<evicted-by rev="2.11.7"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.11" conf="default, compile, runtime, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="3.1.0"/>
 				<artifacts>
 				</artifacts>
 			</revision>

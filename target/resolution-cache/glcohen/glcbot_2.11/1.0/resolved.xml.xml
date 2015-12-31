@@ -4,7 +4,7 @@
 		module="glcbot_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151230133547"
+		publication="20151230220439"
 	>
 		<description>
 		glcBot
@@ -27,7 +27,9 @@
 	</configurations>
 	<publications>
 		<artifact name="glcbot_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="glcbot_2.11" type="jar" ext="jar" conf="optional" e:classifier="download, resolveClassifiers, resolveSbtClassifiers"/>
+		<artifact name="glcbot_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="glcbot_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="glcbot_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
@@ -36,5 +38,6 @@
 		<dependency org="org.twitter4j" name="twitter4j-media-support" rev="4.0.4" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.2" conf="compile->default(compile)"/>
 		<dependency org="com.github.wookietreiber" name="scala-chart_2.11" rev="latest.integration" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.11" rev="3.1.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
