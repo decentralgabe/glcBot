@@ -33,11 +33,42 @@ object IngestUtil {
   }
 
   // Return current timestamp
-  def getDate(): String  = {
+  def getDate(): String = {
     val format = new SimpleDateFormat("y-M-d")
     val cal = Calendar.getInstance()
     format.format(cal.getTime)
   }
+
+  // Check if the word of day for today the date matches today's date
+  def isNewWOTD(): Boolean = {
+    // current date
+    val format = new SimpleDateFormat("M-d")
+    val cal = Calendar.getInstance()
+    val currDate = format.format(cal.getTime())
+
+    // get last updated date from wotd.rss
+    val xml = XML.load("http://dictionary.reference.com/wordoftheday/wotd.rss")
+    val lastBuildDate = (xml \\ "lastBuildDate").map(_.text).mkString(" ")
+    val date = lastBuildDate.substring(lastBuildDate.indexOf(",") + 2, lastBuildDate.indexOf(":") - 7) // get date of format "30 Dec"
+    val d = date.substring(0, date.indexOf(" "))
+    val formattedDate =
+      date.substring(date.indexOf(" ") + 1, date.length - 1) match {
+        case "Jan" => "1-" + d
+        case "Feb" => "2-" + d
+        case "Mar" => "3-" + d
+        case "Apr" => "4-" + d
+        case "May" => "5-" + d
+        case "Jun" => "6-" + d
+        case "Jul" => "7-" + d
+        case "Aug" => "8-" + d
+        case "Sep" => "9-" + d
+        case "Oct" => "10-" + d
+        case "Nov" => "11-" + d
+        case "Dec" => "12-" + d
+      }
+    if (formattedDate == currDate) true else false
+  }
+
 
   // Return date from x year(s) ago for search query of format y-M-d
   // ex: 2 years ago from 2015-12-27 = 2014-12-27

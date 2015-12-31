@@ -11,23 +11,29 @@ object Main {
     val t0 = System.nanoTime()
     println("Running....")
 
-    val twitterApp = AuthUtil.authApp() // application auth for raising query limit to 450 tweets/15 min
-    println("App auth done")
+    if (IngestUtil.isNewWOTD()) { // check if there's a new word of the day
+      val twitterApp = AuthUtil.authApp() // application auth for raising query limit to 450 tweets/15 min
+      println("App auth done")
 
-    val (freqMap, tweetCount) = runIngest(twitterApp)
-    println("Ingestion done")
+      val (freqMap, tweetCount) = runIngest(twitterApp)
+      println("Ingestion done")
 
-    val imgPath = ChartUtil.generateChart(freqMap.toIterator)
-    println("Chart generation done")
+      val imgPath = ChartUtil.generateChart(freqMap.toIterator)
+      println("Chart generation done")
 
-    val (config, twitterPost) = AuthUtil.authNormal() // updte authorization to enable posting to Twitter
-    println("Normal auth done")
+      val (config, twitterPost) = AuthUtil.authNormal() // updte authorization to enable posting to Twitter
+      println("Normal auth done")
 
-    val (avg, max, min, tot, days) = getAvgMaxMinTot(freqMap.toIterator, tweetCount)
-    println("Data fetch and calculations done")
+      val (avg, max, min, tot, days) = getAvgMaxMinTot(freqMap.toIterator, tweetCount)
+      println("Data fetch and calculations done")
 
-    postTweet(twitterPost, avg, max, min, tot, days, imgPath, config)
-    println("Tweet posted!")
+      postTweet(twitterPost, avg, max, min, tot, days, imgPath, config)
+      println("Tweet posted!")
+    }
+
+    else {
+      println("Program will not run. Word of the day not current.")
+    }
 
     val t1 = System.nanoTime()
     println("Elapsed time: " + (t1 - t0) + "ns")

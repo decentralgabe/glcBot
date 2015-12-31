@@ -128,7 +128,7 @@ set _JAVA_OPTS=!_JAVA_OPTS! !_JAVA_PARAMS!
 :run
  
 set "APP_CLASSPATH=%APP_LIB_DIR%\glcohen.glcbot-1.0.jar;%APP_LIB_DIR%\org.scala-lang.scala-library-2.11.7.jar;%APP_LIB_DIR%\org.twitter4j.twitter4j-core-4.0.4.jar;%APP_LIB_DIR%\org.twitter4j.twitter4j-media-support-4.0.4.jar;%APP_LIB_DIR%\org.scala-lang.modules.scala-xml_2.11-1.0.2.jar;%APP_LIB_DIR%\com.github.wookietreiber.scala-chart_2.11-0.5.0.jar;%APP_LIB_DIR%\org.jfree.jfreechart-1.0.19.jar;%APP_LIB_DIR%\org.jfree.jcommon-1.0.23.jar;%APP_LIB_DIR%\org.scala-lang.modules.scala-swing_2.11-1.0.2.jar;%APP_LIB_DIR%\com.typesafe.scala-logging.scala-logging_2.11-3.1.0.jar;%APP_LIB_DIR%\org.scala-lang.scala-reflect-2.11.1.jar;%APP_LIB_DIR%\org.slf4j.slf4j-api-1.7.7.jar"
-set "APP_MAIN_CLASS=Main.scala"
+set "APP_MAIN_CLASS=Main"
 
 if defined CUSTOM_MAIN_CLASS (
     set MAIN_CLASS=!CUSTOM_MAIN_CLASS!

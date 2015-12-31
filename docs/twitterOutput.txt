@@ -4,3 +4,17 @@ Avg: 137
 Max: 12/30: 492
 Min: 12/26: 19
 Tweets: 1372 / 10 days
+
+2015-12-30
+probity: integrity and uprightness; honesty
+Avg: 144
+Max: 12/30: 565
+Min: 12/26: 19
+Tweets: 1446 / 10 days
+
+2015-12-31
+probity: integrity and uprightness; honesty
+Avg: 128
+Max: 12/30: 576
+Min: 12/26: 19
+Tweets: 1282 / 10 days

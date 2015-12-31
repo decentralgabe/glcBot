@@ -333,7 +333,7 @@ declare -r real_script_path="$(realpath "$0")"
 declare -r app_home="$(realpath "$(dirname "$real_script_path")")"
 # TODO - Check whether this is ok in cygwin...
 declare -r lib_dir="$(realpath "${app_home}/../lib")"
-declare -a app_mainclass=("Main.scala")
+declare -a app_mainclass=("Main")
 
 declare -r script_conf_file="${app_home}/../conf/application.ini"
 declare -r app_classpath="$lib_dir/glcohen.glcbot-1.0.jar:$lib_dir/org.scala-lang.scala-library-2.11.7.jar:$lib_dir/org.twitter4j.twitter4j-core-4.0.4.jar:$lib_dir/org.twitter4j.twitter4j-media-support-4.0.4.jar:$lib_dir/org.scala-lang.modules.scala-xml_2.11-1.0.2.jar:$lib_dir/com.github.wookietreiber.scala-chart_2.11-0.5.0.jar:$lib_dir/org.jfree.jfreechart-1.0.19.jar:$lib_dir/org.jfree.jcommon-1.0.23.jar:$lib_dir/org.scala-lang.modules.scala-swing_2.11-1.0.2.jar:$lib_dir/com.typesafe.scala-logging.scala-logging_2.11-3.1.0.jar:$lib_dir/org.scala-lang.scala-reflect-2.11.1.jar:$lib_dir/org.slf4j.slf4j-api-1.7.7.jar"
