@@ -21,7 +21,7 @@ object Main {
       val imgPath = ChartUtil.generateChart(freqMap.toIterator)
       println("Chart generation done")
 
-      val (config, twitterPost) = AuthUtil.authNormal() // updte authorization to enable posting to Twitter
+      val (config, twitterPost) = AuthUtil.authNormal() // update authorization to enable posting to Twitter
       println("Normal auth done")
 
       val (avg, max, min, tot, days) = getAvgMaxMinTot(freqMap.toIterator, tweetCount)
@@ -41,7 +41,7 @@ object Main {
 
   // Pull data from Twitter, return frequency map of Date -> Frequency for WOTD and tweet count
   def runIngest(twitter: Twitter): (Map[String, Int], Int) = {
-    val queryText = IngestUtil.getWOTD + " since:" + IngestUtil.getXMonthsAgo(1) // careful with this
+    val queryText = IngestUtil.getWOTD
     val query: Query = new Query(queryText)
     query.setCount(100) // get up to 100 tweets per query (max)
     val (result, tweetCount) = DataIngest.runMultipleQueries(twitter, query)
@@ -73,8 +73,11 @@ object Main {
       }
     }
     if (avg != 0 && mapCounter != 0) {
-      ((avg / mapCounter).toString, maxDay + ": " + maxCount.toString, minDay + ": " +
-        minCount.toString, tweetCount.toString, mapCounter.toString)
+      ((avg / mapCounter).toString,
+        maxDay.substring(0, maxDay.lastIndexOf("/")) + ": " + maxCount.toString,
+        minDay.substring(0, minDay.lastIndexOf("/")) + ": " + minCount.toString,
+        tweetCount.toString,
+        mapCounter.toString)
     } else {
       // no queries! probably impossible...
       println("ERROR: No tweets found...something's wrong...")
@@ -85,10 +88,13 @@ object Main {
   // Form and post tweet to Twitter
   def postTweet(twitter: Twitter, avg: String, max: String, min: String, tot: String, days: String, imgPath: String, config: Configuration) {
     val tweet = IngestUtil.getWOTDString + "\n" + "Avg: " + avg + "\n" + "Max: " + max +
-      "\n" + "Min: " + min + "\n" + "Tweets: " + tot + " / " + days + " days"
+      "\n" + "Min: " + min + "\n" + "Tweets: " + tot
     IngestUtil.toFile(tweet, "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/twitterOutPut.txt") // write data to file
+    println(tweet)
+
     val upload = AuthUtil.authUpload(config)
     val url = upload.upload(new File(imgPath), tweet)
+
     println("Tweet posted: " + url)
   }
 }

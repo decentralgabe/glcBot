@@ -3794,9 +3794,9 @@
 [debug] 	[NOT REQUIRED] com.google.inject#guice;3.0!guice.jar
 [debug] 	[NOT REQUIRED] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
-[debug] :: resolution report :: resolve 13128ms :: artifacts dl 401ms
+[debug] :: resolution report :: resolve 12667ms :: artifacts dl 416ms
 [debug] 	report for glcohen#glcbot$sbt_2.11;1.0 default produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sbt_2.11-default.xml
-[debug] 	resolve done (13128ms resolve - 401ms download)
+[debug] 	resolve done (12667ms resolve - 416ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: glcohen#glcbot$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4887,6 +4887,6 @@
 [debug] 	[NOT REQUIRED] org.apache.ant#ant;1.9.3!ant.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.9.3!ant-launcher.jar(src)
 [debug] 	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.51!bcpg-jdk15on.jar(src)
-[debug] :: resolution report :: resolve 1702ms :: artifacts dl 288ms
+[debug] :: resolution report :: resolve 1892ms :: artifacts dl 219ms
 [debug] 	report for glcohen#glcbot$sources_2.11;1.0 default produced in /Users/Gabe/Documents/IdeaProjects/glcBot-s/target/resolution-cache/reports/glcohen-glcbot$sources_2.11-default.xml
-[debug] 	resolve done (1702ms resolve - 288ms download)
+[debug] 	resolve done (1892ms resolve - 219ms download)

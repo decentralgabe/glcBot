@@ -50,7 +50,8 @@ object IngestUtil {
     val xml = XML.load("http://dictionary.reference.com/wordoftheday/wotd.rss")
     val lastBuildDate = (xml \\ "lastBuildDate").map(_.text).mkString(" ")
     val date = lastBuildDate.substring(lastBuildDate.indexOf(",") + 2, lastBuildDate.indexOf(":") - 7) // get date of format "30 Dec"
-    val d = date.substring(0, date.indexOf(" "))
+    var d = date.substring(0, date.indexOf(" "))
+    if (d.charAt(0) == '0' ) { d = d.charAt(1).toString } // make sure date is correctly formatted
     val formattedDate =
       date.substring(date.indexOf(" ") + 1, date.length - 1) match {
         case "Jan" => "1-" + d
@@ -69,6 +70,9 @@ object IngestUtil {
     if (formattedDate == currDate) true else false
   }
 
+  /*********************************
+   Below methods no longer used
+   **********************************/
 
   // Return date from x year(s) ago for search query of format y-M-d
   // ex: 2 years ago from 2015-12-27 = 2014-12-27

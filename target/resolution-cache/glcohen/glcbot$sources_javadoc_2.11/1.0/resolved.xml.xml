@@ -4,7 +4,7 @@
 		module="glcbot$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151231144545"
+		publication="20160101182232"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

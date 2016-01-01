@@ -4,7 +4,7 @@
 		module="glcbot$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151231144542"
+		publication="20160101182229"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

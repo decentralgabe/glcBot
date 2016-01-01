@@ -9,12 +9,12 @@ import scala.collection.mutable.ListBuffer
 object DataIngest {
   private final val rateLimit = 450 // # search queries per 15 min interval
 
-  // takes list of dates, returns Map of form [frequency, day of month]
+  // takes list of dates, returns Map of form [frequency, MM/DD/YYYY]
   def dateMapReduce(dateList: List[Date]): Map[String, Int] = {
     // map
     val calList = dateList.map((d: Date) => dateToCalendar(d)) // list of dates -> list of cals
     val freqList: List[(String, Int)] = calList.map((c: Calendar) =>
-        (c.get(Calendar.MONTH) + 1).toString + "/" + c.get(Calendar.DAY_OF_MONTH).toString -> 1)
+        (c.get(Calendar.MONTH) + 1).toString + "/" + c.get(Calendar.DAY_OF_MONTH).toString + "/" + c.get(Calendar.YEAR) -> 1)
 
     // reduce
     var freqMap: Map[String, Int] = Map() // map to hold frequency -> day of Month
@@ -66,10 +66,6 @@ object DataIngest {
 
       //println("Got " + tweets.size + " tweets")
       tweetCount += tweets.size // update tweet count
-
-      /*if (450 - queryCount % 3 == 0) { // checking status limited to 180 times/15 min
-        println("limit status: " + checkRateLimitStatus(twitter) + "\n")
-      }*/
 
       while (tweetsIter.hasNext) {
         val nextTweet = tweetsIter.next()
