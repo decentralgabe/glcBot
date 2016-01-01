@@ -5,34 +5,6 @@ Max: 12/30: 492
 Min: 12/26: 19
 Tweets: 1372 / 10 days
 
-2015-12-30
-probity: integrity and uprightness; honesty
-Avg: 144
-Max: 12/30: 565
-Min: 12/26: 19
-Tweets: 1446 / 10 days
-
-2015-12-31
-probity: integrity and uprightness; honesty
-Avg: 128
-Max: 12/30: 576
-Min: 12/26: 19
-Tweets: 1282 / 10 days
-
-2015-12-31
-clinquant: glittering, especially with tinsel; decked with garish finery
-Avg: 
-Max: 
-Min: 
-Tweets:  /  days
-
-2015-12-31
-clinquant: glittering, especially with tinsel; decked with garish finery
-Avg: 28
-Max: 12/31: 219
-Min: 12/27: 1
-Tweets: 282 / 10 days
-
 2015-12-31
 clinquant: glittering, especially with tinsel
 Avg: 28
@@ -41,50 +13,8 @@ Min: 12/27: 1
 Tweets: 282 / 10 days
 
 2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 506
-Max: 12/31: 942
-Min: 12/23: 210
-Tweets: 5067 / 10 days
-
-2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 507
-Max: 12/31: 942
-Min: 12/23: 210
-Tweets: 5076
-
-2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 508
-Max: 12/31: 942
-Min: 12/23: 210
-Tweets: 5088
-
-2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 508
-Max: 12/31: 942
-Min: 12/23: 210
-Tweets: 5089
-
-2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 510
-Max: 12/31: 942
-Min: 12/23: 210
-Tweets: 5100
-
-2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 521
-Max: 1/1: 972
-Min: 12/23: 201
-Tweets: 5217
-
-2016-1-1
-first-foot: the first person to cross the threshold of a house on New Year's Day
-Avg: 519
-Max: 1/1/2016: 987
-Min: 12/23/2015: 164
-Tweets: 5196
+First-foot
+Average: 516
+Max on 1/1: 993
+Min on 12/23: 122
+Tweets: 5160 over 10 days

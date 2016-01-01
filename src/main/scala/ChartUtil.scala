@@ -23,7 +23,7 @@ object ChartUtil {
         "Tweets")
     }
     implicit val theme = org.jfree.chart.StandardChartTheme.createLegacyTheme
-    val chart = XYLineChart(timeTable, title = IngestUtil.getWOTD() + " Usage on Twitter in Last Week", legend = false)
+    val chart = XYLineChart(timeTable, title = IngestUtil.getWOTDString(), legend = false)
 
     val chartString = "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/wotd-" + IngestUtil.getDate() + ".jpg"
     chart.saveAsJPEG(chartString)

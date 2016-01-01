@@ -87,8 +87,8 @@ object Main {
 
   // Form and post tweet to Twitter
   def postTweet(twitter: Twitter, avg: String, max: String, min: String, tot: String, days: String, imgPath: String, config: Configuration) {
-    val tweet = IngestUtil.getWOTDString + "\n" + "Avg: " + avg + "\n" + "Max: " + max +
-      "\n" + "Min: " + min + "\n" + "Tweets: " + tot
+    val tweet = IngestUtil.getWOTD + "\n" + "Average: " + avg + " per day \n" + "Max on " + max +
+      "\n" + "Min on " + min + "\n" + "Tweets: " + tot + " over " + days + " days"
     IngestUtil.toFile(tweet, "/Users/Gabe/Documents/IdeaProjects/glcBot-s/docs/twitterOutPut.txt") // write data to file
     println(tweet)
 
